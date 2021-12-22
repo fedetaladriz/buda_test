@@ -5,6 +5,7 @@ import math
 TRAIN_COLOURS = ['red', 'green']
 
 class Station:
+
     def __init__(self, colour):
         '''
         Class for saving information about a station of the network (node). 
@@ -27,6 +28,7 @@ class Station:
 
 
 class ModifiedDijkstra:
+    
     def __init__(self):
         '''
         Two principal data structures for the algorithm:
